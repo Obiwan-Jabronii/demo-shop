@@ -9,7 +9,7 @@ const resolvers = {
             return await Category.find();
         },
         products: async (parent, { category, name }) => {
-            const params {};
+            const params = {};
 
             if (category) {
                 params.category = category;
