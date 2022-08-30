@@ -5,10 +5,10 @@ import { useQuery } from '@apollo/client';
 import { QUERY_PRODUCTS } from '../utils/queries';
 
 function Detail() {
-    const { id } = useParams;
+    const { id } = useParams();
 
-    const [currentProduct, setCurrentProduct] = useState;
-    const { loading, data } = useQuery(QUERY_PRODUCTS);
+    const [currentProduct, setCurrentProduct] = useState({});
+    const { data } = useQuery(QUERY_PRODUCTS);
     const products = data?.products || [];
 
     useEffect(() => {

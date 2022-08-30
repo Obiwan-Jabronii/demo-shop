@@ -22,163 +22,196 @@ db.once('open', async () => {
             name: 'Tin of Cookies',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
+            image: 'tinofcookies.jpg',
             category: categories[0]._id,
             price: 2.99,
             quantity: 500
           },{
-            name: 'Tin of Cookies',
+            name: 'How to Be Fine',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'fine.jpg',
+            category: categories[3]._id,
+            price: 14.99,
+            quantity: 150
           },{
-            name: 'Tin of Cookies',
+            name: 'Jacks',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'jacks.jpg',
+            category: categories[5]._id,
+            price: 1.99,
+            quantity: 300
           },{
-            name: 'Tin of Cookies',
+            name: 'Laptop',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'laptop.jpg',
+            category: categories[1]._id,
+            price: 799.99,
+            quantity: 50
           },{
-            name: 'Tin of Cookies',
+            name: 'Monopoly',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'monopoly.jpg',
+            category: categories[4]._id,
+            price: 15.99,
+            quantity: 250
           },{
-            name: 'Tin of Cookies',
+            name: 'Candle',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'candle.jpg',
+            category: categories[2]._id,
+            price: 10.99,
+            quantity: 175
           },{
-            name: 'Tin of Cookies',
+            name: 'Cake',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
+            image: 'cake.jpg',
             category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            price: 35.99,
+            quantity: 25
           },{
-            name: 'Tin of Cookies',
+            name: 'Console',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'console.jpg',
+            category: categories[1]._id,
+            price: 499.99,
+            quantity: 15
           },{
-            name: 'Tin of Cookies',
+            name: 'Settlers of Catan',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'settlers.jpg',
+            category: categories[4]._id,
+            price: 25.99,
+            quantity: 75
           },{
-            name: 'Tin of Cookies',
+            name: 'Jules Verne Collection',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'julesverne.jpg',
+            category: categories[3]._id,
+            price: 20.99,
+            quantity: 45
           },{
-            name: 'Tin of Cookies',
+            name: 'Wooden Car',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'car.jpg',
+            category: categories[5]._id,
+            price: 6.99,
+            quantity: 250
           },{
-            name: 'Tin of Cookies',
+            name: 'Salad',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
+            image: 'salad.jpg',
             category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            price: 5.99,
+            quantity: 60
           },{
-            name: 'Tin of Cookies',
+            name: 'Television',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'tv.jpg',
+            category: categories[1]._id,
+            price: 499.99,
+            quantity: 20
           },{
-            name: 'Tin of Cookies',
+            name: 'Bar Soap',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'soap.jpg',
+            category: categories[2]._id,
+            price: 5.99,
+            quantity: 100
           },{
-            name: 'Tin of Cookies',
+            name: 'Dune',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'dune.jpg',
+            category: categories[3]._id,
+            price: 25.99,
+            quantity: 50
           },{
-            name: 'Tin of Cookies',
+            name: 'Jenga',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'jenga.jpg',
+            category: categories[4]._id,
+            price: 15.99,
+            quantity: 300
           },{
-            name: 'Tin of Cookies',
+            name: 'Toy Boat',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'boat.jpg',
+            category: categories[5]._id,
+            price: 10.99,
+            quantity: 150
           },{
-            name: 'Tin of Cookies',
+            name: 'Sandwich',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
+            image: 'sandwich.jpg',
             category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            price: 6.99,
+            quantity: 35
           },{
-            name: 'Tin of Cookies',
+            name: 'Keyboard',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'keyboard.jpg',
+            category: categories[1]._id,
+            price: 65.99,
+            quantity: 75
           },{
-            name: 'Tin of Cookies',
+            name: 'Loofa',
             description:
               'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
-            image: 'cookie-tin.jpg',
-            category: categories[0]._id,
-            price: 2.99,
-            quantity: 500
+            image: 'loofa.jpg',
+            category: categories[2]._id,
+            price: 7.99,
+            quantity: 155
+          },{
+            name: 'Wool',
+            description:
+              'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            image: 'wool.jpg',
+            category: categories[3]._id,
+            price: 12.99,
+            quantity: 50
+          },{
+            name: 'Here to Slay',
+            description:
+              'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            image: 'heretoslay.jpg',
+            category: categories[4]._id,
+            price: 10.99,
+            quantity: 30
+          },{
+            name: 'YoYo',
+            description:
+              'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            image: 'yoyo.jpg',
+            category: categories[5]._id,
+            price: 7.99,
+            quantity: 200
+          },{
+            name: 'Vacuum',
+            description:
+              'Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.',
+            image: 'vacuum.jpg',
+            category: categories[2]._id,
+            price: 75.99,
+            quantity: 45
           },
+
     ]);
 
     console.log('Products seeded');

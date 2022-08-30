@@ -23,6 +23,7 @@ const typeDefs = gql`
     }
 
     type User {
+        _id: ID
         username: String
         email: String
         orders: [Order]
@@ -36,7 +37,7 @@ const typeDefs = gql`
     type Query {
         categories: [Category]
         products(category: ID, name: String): [Product]
-        product(_id:ID!):Product
+        product(_id:ID!): Product
         user: User
         order(_id: ID!): Order
     }

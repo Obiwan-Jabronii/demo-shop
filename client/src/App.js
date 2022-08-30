@@ -19,31 +19,22 @@ const client = new ApolloClient({
   cache: new InMemoryCache(),
 });
 
-// function App() {
-//   return (
-//     <ApolloProvider client={client}>
-//       <Router>
-//         <Nav />
-//         <Switch>
-//           <Route exact path='/' component={Home} />
-//           <Route exact path='/login' component={Login} />
-//           <Route exact path='/signup' component={Signup} />
-//           <Route exact path='/orderHistory' component={OrderHistory} />
-//           <Route exact path='/products/:id' component={Detail} />
-//         </Switch>
-//       </Router>
-//     </ApolloProvider>
-//   );
-// }export default App;
+ function App() {
+   return (
+     <ApolloProvider client={client}>
+       <Router>
+         <Nav />
+         <Switch>
+           <Route exact path='/' component={Home} />
+           <Route exact path='/login' component={Login} />
+           <Route exact path='/signup' component={Signup} />
+           <Route exact path='/orderHistory' component={OrderHistory} />
+           <Route exact path='/products/:id' component={Detail} />
+         </Switch>
+       </Router>
+     </ApolloProvider>
+   );
+ }
 
-function App() {
-  return (
-    <ApolloProvider client={client}>
-        <div>
-          <Home />
-        </div>
-    </ApolloProvider>
-  );
-}
 
 export default App;

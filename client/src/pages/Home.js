@@ -9,7 +9,7 @@ const Home = () => {
         <div className='container'>
             <CategoryMenu setCategory={setCategory}/>
             <ProductList currentCategory={currentCategory}/>
-            <Cart />
+            {/* <Cart /> */}
         </div>
     );
 };
