@@ -2,6 +2,7 @@ import { ApolloProvider, ApolloClient, InMemoryCache, createHttpLink } from '@ap
 import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { setContext } from '@apollo/client/link/context';
+import { StoreProvider } from './utils/GlobalState';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
@@ -23,14 +24,18 @@ const client = new ApolloClient({
    return (
      <ApolloProvider client={client}>
        <Router>
-         <Nav />
-         <Switch>
-           <Route exact path='/' component={Home} />
-           <Route exact path='/login' component={Login} />
-           <Route exact path='/signup' component={Signup} />
-           <Route exact path='/orderHistory' component={OrderHistory} />
-           <Route exact path='/products/:id' component={Detail} />
-         </Switch>
+        <div>
+          <StoreProvider>
+            <Nav />
+            <Switch>
+              <Route exact path='/' component={Home } />
+              <Route exact path='/login' component={Login } />
+              <Route exact path="/signup" component={Signup} />
+              <Route exact path='/orderHistory' component={OrderHistory } />
+              <Route exact path='/products/:id' component={Detail } />
+            </Switch>
+          </StoreProvider>
+         </div>
        </Router>
      </ApolloProvider>
    );
