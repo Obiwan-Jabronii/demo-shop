@@ -1,6 +1,6 @@
 :root {
   --primary: #232F3E;
-  --secondary: #eea252;
+  --secondary: #eca85e;
   --tertiary: #B12704;
   --light: #fafafa;
   --dark: #272f32;
@@ -81,6 +81,7 @@ a:hover {
 
 header {
   background: var(--primary);
+  height: 60px;
 }
 
 header a {
