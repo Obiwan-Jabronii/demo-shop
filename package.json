@@ -24,5 +24,8 @@
   "homepage": "https://github.com/Obiwan-Jabronii/demo-shop#readme",
   "dependencies": {
     "node": "^16.17.0"
+  },
+  "engines": {
+    "node": "16.13.0"
   }
 }
