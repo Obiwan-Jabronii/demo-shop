@@ -10,7 +10,7 @@
     "start": "node server/server.js",
     "seed": "cd server && npm run seed",
     "develop": "concurrently \"cd server && npm run watch\" \"cd client && npm start\"",
-    "build": "cd client && npm run build"
+    "build": "cd client && npm install && npm run build"
   },
   "repository": {
     "type": "git",
